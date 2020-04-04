@@ -558,3 +558,37 @@ body{}
 			right: 50%;
 			transform:translateX(50%);
 		}
+
+		.cover{
+			display: none;
+		}
+
+		@media screen and (max-width:1300px){
+			body{
+				position: relative;
+			}
+			.cover{
+				display: block;
+				position: fixed;
+				top:0;
+				left:0;
+				width:100vw;
+				height: 100vh;
+				opacity: .7;
+				background: #000;
+				z-index: 1000;
+			}
+			.cover h3{
+				width: 100%;
+				text-align: center;
+				padding:0 10px;
+				color:white;
+				position:absolute;
+				top:50%;
+				left:50%;
+				font-size:4rem;
+				font-weight: normal;
+				transform: translate(-50%,-50%);
+			}
+		}
+		
