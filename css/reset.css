@@ -1,0 +1,32 @@
+/*  
+    작성자 : 채동건
+    수정일 : 2020.04.2x
+    라이센스 : MIT
+*/
+
+html,
+body,
+div,
+a,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+
+    list-style: none;
+}

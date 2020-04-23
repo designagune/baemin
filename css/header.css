@@ -1,0 +1,46 @@
+/* class는 -(하이폰)으로 통일 */
+/* header */
+.visual-header {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+    transition: ease-in-out 0.5s;
+    overflow: hidden;
+}
+
+/* gnb */
+.visual-header .gnb::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/* logo */
+.visual-header .gnb div.logo {
+    float: left;
+}
+
+.visual-header .gnb div.logo img {
+    width: 300px;
+    height: 100px;
+}
+
+/* login */
+.visual-header .gnb div.login {
+    float: right;
+    margin: 30px 20px 0 0;
+}
+
+.visual-header .gnb div.login span:first-child {
+    margin-right: 20px;
+}
+
+.visual-header .gnb div.login span a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #222;
+}
